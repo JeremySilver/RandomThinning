@@ -1,8 +1,8 @@
 Package: RandomThinning
 Type: Package
-Title: Random thinning tests and auxiliary functions
+Title: Random Thinning Tests and Auxiliary Functions
 Version: 1.0
-Date: 2017-01-23
+Date: 2017-05-26
 Author: Jeremy Silver
 Maintainer: Jeremy Silver <jeremy.silver@unimelb.edu.au>
 Description: Monte Carlo tests for weak signals in time-series.

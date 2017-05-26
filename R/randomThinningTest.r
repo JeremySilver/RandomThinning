@@ -27,6 +27,7 @@
 #' randomThinningTest(ts = x, p = 7, n = 1000, fr = 0.025)
 #' randomThinningTest(ts = x, p = 9, n = 1000, fr = 0.025)
 #' @export
+#' @importFrom Rcpp evalCpp
 #' @useDynLib RandomThinning
 
 randomThinningTest <- function(ts, its = NULL, fr = 0.05, p = 5, n = 1000,

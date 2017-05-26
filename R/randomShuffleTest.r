@@ -27,6 +27,7 @@
 #' randomShuffleTest(ts = x, p = 7, n = 1000, blockLength = 10)
 #' randomShuffleTest(ts = x, p = 9, n = 1000, blockLength = 10)
 #' @export
+#' @importFrom Rcpp evalCpp
 #' @useDynLib RandomThinning
 
 randomShuffleTest <- function(ts, its = NULL, blockLength = 1, p = 5, n = 1000,

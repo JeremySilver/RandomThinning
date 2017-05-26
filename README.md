@@ -8,7 +8,7 @@ It uses some c++ code (via the Rcpp interface) for some of the more CPU-intensiv
 
 Following [Karl Broman's instructions](http://kbroman.org/pkg_primer/pages/github.html), you can install this package with the following steps:
 
-1. Install the [devtools](https://cran.r-project.org/web/packages/devtools/) package. 
+1. Install the [devtools](https://cran.r-project.org/web/packages/devtools/) package - you can skip this step if the package is already installed. In the R console, run:
 
 ```
 install.packages("devtools")
@@ -20,10 +20,10 @@ install.packages("devtools")
 library(devtools)
 ```
 
-3. Install following the syntax `install_github("author/packag")`:
+3. Install following the syntax `install_github("author/package")`:
 
 ```
-install_github("kbroman/broman")
+install_github("JeremySilver/RandomThinning")
 ```
 
 If this doesn't work for you, then there is longer list of [instructions](https://cran.r-project.org/web/packages/githubinstall/vignettes/githubinstall.html) to install R packages from github, which may be worth trying.
